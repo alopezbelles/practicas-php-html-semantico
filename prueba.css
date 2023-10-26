@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(255, 197, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: auto;
+
+} */
+.container{
+    padding: 2em;
+    margin-top: 25%;
+    height: auto;
+    width: auto;
+    background-color: rgb(247, 247, 254);
+    border-radius: 10px;
+
+}
