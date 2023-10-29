@@ -36,10 +36,71 @@
           </ol>
         </nav>
       </article>
+      <section>
+        <form>
+          <label for="fruta">Selecciona una fruta:</label>
+          <input list="frutas" id="fruta" name="fruta" />
+          <datalist id="frutas">
+            <option value="Manzana"></option>
+            <option value="Plátano"></option>
+            <option value="Naranja"></option>
+            <option value="Pera"></option>
+            <option value="Sandía"></option>
+          </datalist>
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+
+      <section>
+        <h2>Preguntas frecuentes:</h2>
+        <details>
+          <summary>Qué estudios tienes?</summary>
+          <p>
+            Estudié un bootcamp presencial de Full Stack Developer y tengo
+            experiencia previa como diseñador gráfico.
+          </p>
+        </details>
+        <details>
+          <summary>Cuales son tus hobbies?</summary>
+          <p>Me gusta el deporte, la programación, el diseño y viajar.</p>
+        </details>
+        <details>
+          <summary>Cual es tu lenguaje favorito?</summary>
+          <p>
+            Me gusta HTML, CSS y JAVASCRIPT, NODE.JS, SQL y frameworks como
+            REACT.
+          </p>
+        </details>
+      </section>
+      <section>
+        <!-- Relación de aspecto: para que ocupe el 100% de la pantalla y conserve su proporción, así siempre será responsive -->
+        <!-- <img style="width: 100%; aspect-ratio: 638/317;"; loading="lazy" src="" alt=""> -->
+
+          <!-- añadir frame, video de youtube -->
+        <!-- <iframe
+        style="width:100%; aspect-ratio:16/9"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/vJuxkZkfFQM?si=6qhWHLZvXyN0KylX"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe> -->
+
+        <dialog>
+          <h1>Se puede abrir una modal de esta manera</h1>
+          <p>Esto es una prueba</p>
+
+        </dialog>
+      </section>
     </main>
-    <footer>
-      Aquí suele ir la información menos importante de la página. Normalmente un
-      footer se pone al final.
-    </footer>
+    <section>
+      <footer>
+        Aquí suele ir la información menos importante de la página. Normalmente
+        un footer se pone al final.
+      </footer>
+    </section>
   </body>
 </html>

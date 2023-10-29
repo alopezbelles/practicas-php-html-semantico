@@ -1,0 +1,14 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    margin: 0;
+    
+}
