@@ -1,0 +1,26 @@
+.parent {
+  border: 5px solid rgb(0, 0, 0);
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  /* Ponemos al elemento padre la posición relativa para que sus elementos hijos, en este caso el .container, lo tomen como referencia a la hora de establecer sus coordenadas. Si no se pone posicion relativa, toman como referencia el documento entero.  */
+  position: relative;
+}
+
+.container {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  /* Posición absoluta: sirve para establecer sus coordenadas en el documento. Al estar dentro del elemento parent, usará sus medidas para establecer su ubicación.   */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  /* Para conseguir que se centre automáticamente */
+  inset: 0;
+  margin:auto;
+}
+
+body {
+  background: lightcoral;
+}
+

@@ -1,10 +1,19 @@
 .container{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: white;
     padding: 10px;
-    border: 10px solid red;
+    /* border: 10px solid red; */
     box-sizing: border-box;
+    font-size: 36px;
+    /* Para evitar el desbordamiento de un texto más grande que su contenedor: Por devecto sería overflow: visible. */
+    overflow: hidden;
+    /* El scroll serviría para que el contenido sea hidden pero que sea accesible por unas barras de scroll.  */
+    /* overflow: scroll; */
+    /* Se pone en auto para que cada navegador lo interprete */
+    /* overflow: auto; */
+    /* Para desbordar el texto pero que el navegador no haga un corte tan literal y ponga puntos suspensivos...  */
+    text-overflow: ellipsis;
 }
 
 body{
